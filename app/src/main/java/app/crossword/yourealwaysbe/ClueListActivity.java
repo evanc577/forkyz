@@ -154,6 +154,7 @@ public class ClueListActivity extends PuzzleActivity
         clueTabs.refresh();
 
         keyboardManager.onResume();
+        displayKeyboard();
 
         this.render();
     }
